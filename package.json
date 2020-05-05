@@ -1,0 +1,20 @@
+{
+  "name": "kenyatok",
+  "version": "2.0.0",
+  "description": "just bored so i decided to do this",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --inspect index.js"
+  },
+  "author": "yuck fou admin",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "json2csv": "^5.0.1",
+    "puppeteer": "^3.0.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {}
+}
